@@ -1,0 +1,22 @@
+.MuiPagination-root .MuiPagination-ul li:last-child button {
+  background-color: #ffbe07;
+  width: 67px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+.MuiPagination-root .MuiPagination-ul li:last-child button::before {
+  content: "Next";
+}
+.MuiPagination-root .MuiPagination-ul li:last-child button svg {
+  display: none;
+}
+.MuiPaper-root .MuiTablePagination-menuItem:hover {
+  background-color: #ffbe07;
+}
+.MuiPaper-root .MuiTablePagination-menuItem.Mui-selected {
+  background-color: #ffbe07;
+}
+.MuiPaper-root .MuiTablePagination-menuItem.Mui-selected:hover {
+  background-color: #ffbe07;
+}
